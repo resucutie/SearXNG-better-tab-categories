@@ -1,0 +1,28 @@
+/* ==UserStyle==
+@name         SearXNG but the tab categories look beatiful
+@description  Changes the look of the SearXNG tab categories to be more asthetically pleasing
+@namespace    https://github.com/abUwUser
+@version      0.0.1
+@author       A user
+@homepageURL  http://cartaxoland.auser.catvibers.me/
+@license      MIT
+@preprocessor stylus
+==/UserStyle== */
+
+@-moz-document url-prefix("http://ransack.i2p/"), url-prefix("https://darmarit.org/searx/"), url-prefix("https://de.xcxc.ml/"), url-prefix("https://dynabyte.ca/"), url-prefix("https://etsi.me/"), url-prefix("https://icanfindit.online/"), url-prefix("https://jackgoss.xyz/"), url-prefix("https://jsearch.pw/"), url-prefix("https://metasearch.nl/"), url-prefix("https://northboot.xyz/"), url-prefix("https://notsearch.uk/"), url-prefix("https://opnxng.com/"), url-prefix("https://paulgo.io/"), url-prefix("https://priv.au/"), url-prefix("https://privatus.live/"), url-prefix("https://s.frlt.one/"), url-prefix("https://s.zhaocloud.net/"), url-prefix("https://saber.tk/"), url-prefix("https://search.0relay.com/"), url-prefix("https://search.affusio.com/"), url-prefix("https://search.bus-hit.me/"), url-prefix("https://search.callmeecho.dev/"), url-prefix("https://search.chemicals-in-the-water.eu/"), url-prefix("https://search.cronobox.one/"), url-prefix("https://search.disroot.org/"), url-prefix("https://search.ethibox.fr/"), url-prefix("https://search.gcomm.ch/"), url-prefix("https://search.kiwitalk.de/"), url-prefix("https://search.mdosch.de/"), url-prefix("https://search.mpx.wtf/"), url-prefix("https://search.neet.works/"), url-prefix("https://search.ononoki.org/"), url-prefix("https://search.privacyguides.net/"), url-prefix("https://search.projectsegfau.lt/"), url-prefix("https://search.rabbit-company.com/"), url-prefix("https://search.rhscze.cf/"), url-prefix("https://search.rowie.at/"), url-prefix("https://search.sapti.me/"), url-prefix("https://search.serginho.dev/"), url-prefix("https://search.smnz.de/"), url-prefix("https://search.snopyta.org/"), url-prefix("https://search.stinpriza.org/"), url-prefix("https://search.teamriverbubbles.com/"), url-prefix("https://search.trom.tf/"), url-prefix("https://search.unlocked.link/"), url-prefix("https://search.uspersec.com/"), url-prefix("https://search.vidhukant.xyz/"), url-prefix("https://search.zzls.xyz/"), url-prefix("https://searx.baczek.me/"), url-prefix("https://searx.be/"), url-prefix("https://searx.becomesovran.com/"), url-prefix("https://searx.bissisoft.com/"), url-prefix("https://searx.chocoflan.net/"), url-prefix("https://searx.divided-by-zero.eu/"), url-prefix("https://searx.dresden.network/"), url-prefix("https://searx.ebnar.xyz/"), url-prefix("https://searx.ericaftereric.top/"), url-prefix("https://searx.esmailelbob.xyz/"), url-prefix("https://searx.fi/"), url-prefix("https://searx.fmac.xyz/"), url-prefix("https://searx.fossencdi.org/"), url-prefix("https://searx.gnous.eu/"), url-prefix("https://searx.gnu.style/"), url-prefix("https://searx.kujonello.cf/"), url-prefix("https://searx.mastodontech.de/"), url-prefix("https://searx.mha.fi/"), url-prefix("https://searx.mistli.net/"), url-prefix("https://searx.mxchange.org/"), url-prefix("https://searx.nakhan.net/"), url-prefix("https://searx.namejeff.xyz/"), url-prefix("https://searx.netzspielplatz.de/"), url-prefix("https://searx.nixnet.services/"), url-prefix("https://searx.org/"), url-prefix("https://searx.orion-hub.fr/"), url-prefix("https://searx.priv.pw/"), url-prefix("https://searx.prvcy.eu/"), url-prefix("https://searx.rimkus.it/"), url-prefix("https://searx.roflcopter.fr/"), url-prefix("https://searx.ru/"), url-prefix("https://searx.run/"), url-prefix("https://searx.semipvt.com/"), url-prefix("https://searx.sethforprivacy.com/"), url-prefix("https://searx.sev.monster/"), url-prefix("https://searx.slipfox.xyz/searx/"), url-prefix("https://searx.sp-codes.de/"), url-prefix("https://searx.stuehieyr.com/"), url-prefix("https://searx.tiekoetter.com/"), url-prefix("https://searx.tuxcloud.net/"), url-prefix("https://searx.tyil.nl/"), url-prefix("https://searx.vanwa.tech/"), url-prefix("https://searx.webheberg.info/"), url-prefix("https://searx.xyz/"), url-prefix("https://searx.zapashcanon.fr/"), url-prefix("https://searx.zcyph.cc/"), url-prefix("https://searxng.ir/"), url-prefix("https://searxng.nicfab.eu/"), url-prefix("https://searxng.zackptg5.com/"), url-prefix("https://serx.ml/"), url-prefix("https://sex.rijndael.cc/"), url-prefix("https://sh0.it/"), url-prefix("https://soek.allesbeste.com/"), url-prefix("https://spot.ecloud.global/"), url-prefix("https://srx.cosmohub.io/"), url-prefix("https://searx.oakleycord.dev/"), url-prefix("https://suche.dasnetzundich.de/"), url-prefix("https://suche.tromdienste.de/"), url-prefix("https://suche.uferwerk.org/"), url-prefix("https://swag.pw/"), url-prefix("https://sx.catgirl.cloud/"), url-prefix("https://timdor.noip.me/searx/"), url-prefix("https://trydex.tk/searxng/"), url-prefix("https://www.gruble.de/"), url-prefix("https://www.webrats.xyz/"), url-prefix("https://xcxc.ml/"), url-prefix("https://xo.wtf/") {
+body:not(.preferences_endpoint) .category {
+    margin: 4px;
+    margin-top: 0;
+}
+
+.category input[type=checkbox]:checked+label {
+    background: var(--color-search-background);
+    border: none;
+}
+
+.category label {
+    padding: 8px;
+    border-radius: 8px;
+    gap: 4px;
+}
+}
